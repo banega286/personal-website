@@ -1,8 +1,6 @@
-import Image from "next/image";
 import fs from 'fs';
 import path from 'path';
 import { MDXRemote } from 'next-mdx-remote/rsc';
-import Link from 'next/link';
 
 const sections = [
   { name: 'About', file: 'about.md' },
